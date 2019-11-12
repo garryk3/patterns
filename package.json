@@ -50,6 +50,6 @@
     }
   },
   "dependencies": {
-    "preact": "^8.4.2"
+    "preact": "^10.0.5"
   }
 }
