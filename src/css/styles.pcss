@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.custom-scrollbar {
+    &::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px #1a4f3f;
+        background-color: #2c5f4e;
+    }
+
+    &::-webkit-scrollbar {
+        width: 11px;
+        background-color: #134838;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #104535;
+        border: 2px solid #1a4f3f;
+    }
+}
